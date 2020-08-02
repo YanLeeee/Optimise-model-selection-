@@ -1,7 +1,7 @@
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Assignment 3-Yan Li"),
+  titlePanel("Optimise model selection-Yan Li"),
   checkboxInput(inputId = "Parallel", label = "Use parallel processing", value = TRUE),
   tabsetPanel(
     tabPanel("Data",
